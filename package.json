@@ -1,0 +1,33 @@
+{
+  "name": "requesto",
+  "author": "bo@kbct.de",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebblejs": "^1.0.0"
+  },
+  "pebble": {
+    "displayName": "requesto",
+    "uuid": "5fbb585d-0d7d-48ca-9549-bf90690ee091",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
